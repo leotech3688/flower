@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layouts.Base')
 @section('title') 登录-济南鲜花网站 @parent @stop
 @section('description') 济南鲜花网站济南鲜花网站济南鲜花网站济南鲜花网站  @stop
 @section('keywords') 济南鲜花网站，济南鲜花网站，济南鲜花网站，济南鲜花网站  @stop

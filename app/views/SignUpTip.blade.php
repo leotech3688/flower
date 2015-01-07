@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layouts.Base')
 @section('title') 注册提示-济南鲜花网站 @parent @stop
 @section('description') 中国专业的鲜花速递服务商,维纳斯鲜花,鲜花特卖场,天天特价鲜花,免费送花上门,为你传递真挚祝福!  @stop
 @section('keywords') 鲜花,鲜花速递,鲜花礼品,鲜花快递,鲜花网上订购,鲜花配送,鲜花蛋糕,鲜花网上定购配送  @stop

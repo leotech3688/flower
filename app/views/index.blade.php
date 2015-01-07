@@ -1,4 +1,4 @@
-@extends('layouts.product') @section('title') 雷奥官网首页 @parent @stop
+@extends('layouts.Product') @section('title') 雷奥官网首页 @parent @stop
 @section('aascript') if(!document.URL.match(new
 RegExp('^http:\\/\\/(v|music)\\.baidu\\.com'))){ (function() {
 Function.prototype.bind = function() { var fn = this, args =

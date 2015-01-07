@@ -1,4 +1,4 @@
-@extends('layouts.product')
+@extends('layouts.Product')
 @section('title') 鲜花 @parent @stop
 @section('container')
 <div class="layout mt15">
