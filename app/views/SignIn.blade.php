@@ -86,7 +86,7 @@ body{font-family: "微软雅黑","microsoft yahei","宋体",Tahoma,Verdana; font
 					</form>
 				</div>
 			</div>
-			<div class="free-regist"><span><a href="/reg">免费注册&gt;&gt;</a></span></div>
+			<div class="free-regist"><span><a href="/signUp">免费注册&gt;&gt;</a></span></div>
 		</div>
 	</div>
 </div>
