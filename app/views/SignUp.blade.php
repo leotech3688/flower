@@ -61,7 +61,7 @@
 @section('body')
 <div class="page_top">
 	<div class="layout clearfix">
-		<div class="pull-left">欢迎来到维纳斯鲜花礼品网，请<a href="/index.html">登录</a> 或 <a href="/auth/signup">注册</a>
+		<div class="pull-left">欢迎来到维纳斯鲜花礼品网，请<a href="/signIn">登录</a> 或 <a href="/signUp">注册</a>
 		</div>
 		<ul class="pull-right">
 			<li><a href="/Order/olist.html">我的订单</a></li>
