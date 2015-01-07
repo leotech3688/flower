@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layouts.Base')
 
 @section('description') 雷奥科技是一家集网站制作，微信开发，APP开发为一体的互联网微型公司。  @stop
 @section('keywords') 雷奥科技,网站制作,微信开发,APP开发,互联网  @stop
