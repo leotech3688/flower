@@ -45,7 +45,7 @@ body{font-family: "微软雅黑","microsoft yahei","宋体",Tahoma,Verdana; font
 	<div class="w950">
 		<div class="header">
 			<h1>
-				<a title="维纳斯鲜花礼品网" href="http://www.vnasi.com">
+				<a title="维纳斯鲜花礼品网" href="http://123.56.101.160">
 					<img alt="维纳斯鲜花礼品网" name="Logon_index_denglu009" src="http://www.vnasi.com/statics/images/logo/vnasi.com.logo.png?v=20140101">
 				</a>
 			</h1>

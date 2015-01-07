@@ -4,7 +4,7 @@
 <div class="layout mt15">
 	<ol class="breadcrumb">
 		<li>
-			<a href="/default.html"><i class="glyphicon glyphicon-home"></i> 网站首页</a>
+			<a href="/"><i class="glyphicon glyphicon-home"></i> 网站首页</a>
 		</li>
 		<li><a href="javascript:;">鲜花</a></li>
 	</ol>

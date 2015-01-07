@@ -80,7 +80,7 @@
 <div class="layout">
 	<div class="header">
 		<h1>
-			<a title="维纳斯鲜花礼品网" href="http://www.vnasi.com">
+			<a title="维纳斯鲜花礼品网" href="/">
 				<img alt="维纳斯鲜花礼品网" name="Logon_index_denglu009" src="http://www.vnasi.com/statics/images/logo/vnasi.com.logo.png?v=20140101">
 			</a>
 			<span class="title">欢迎新用户注册</span>
@@ -121,7 +121,7 @@
 		<div class="regot">
 			<div class="login-xsd">
 				<p>已有维纳斯鲜花礼品网帐号</p>
-				<a href="/index" class="btn btn-warning btn-sm w180">登录</a>
+				<a href="/signIn" class="btn btn-warning btn-sm w180">登录</a>
 			</div>
 		</div>
 	</div>
