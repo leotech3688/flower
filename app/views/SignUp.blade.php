@@ -67,8 +67,8 @@
 			<li><a href="/Order/olist.html">我的订单</a></li>
 			<li><s></s><a class="dropdown-toggle" data-toggle="dropdown" href="#">客户服务<span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
-					<li><a href="http://www.vnasi.com/help.html" target="_blank">帮助中心</a></li>
-					<li><a href="http://www.vnasi.com/help/shouhouzhengce.html" target="_blank" rel="nofollow">售后服务</a></li>
+					<li><a href="/help" target="_blank">帮助中心</a></li>
+					<li><a href="/postSale" target="_blank" rel="nofollow">售后服务</a></li>
 					<li><a href="http://dx.zoosnet.net/lrserver/LR/ChatWin.aspx?id=LZS40862955" target="_blank" rel="nofollow">在线客服</a></li>
 				</ul>
 			</li>
