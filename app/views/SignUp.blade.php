@@ -8,6 +8,7 @@
 	{{ style('jquery.validator') }}
 @parent @stop
 @section('beforeScript')
+	{{ script('public') }}
 <!--[if lt IE 9]>
     {{ script('html5shiv') }}
    	{{ script('respond') }}
@@ -72,7 +73,7 @@
 					<li><a href="http://dx.zoosnet.net/lrserver/LR/ChatWin.aspx?id=LZS40862955" target="_blank" rel="nofollow">在线客服</a></li>
 				</ul>
 			</li>
-			<li><s></s><a href="javascript:addToFavorite()" rel="nofollow"><i class="glyphicon glyphicon-star"></i>收藏本站</a></li>
+			<li><s></s><a href="javascript:void(0);" onclick="AddFavorite('济南鲜花网',location.href)"><i class="glyphicon glyphicon-star"></i>收藏本站</a></li>
 			<li><s></s><a href="http://cart.vnasi.com/Cart/cart.html"><i class="glyphicon glyphicon-shopping-cart"></i>购物车</a></li>
 		</ul>
 	</div>
