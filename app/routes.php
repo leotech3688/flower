@@ -15,10 +15,19 @@ Route::get('/', 'HomeController@showIndex');
 Route::get('/signUp', 'HomeController@showSignUp');
 Route::get('/product/xianHua', 'HomeController@showXianHua');
 Route::get('/signIn', 'HomeController@showSignIn');
-Route::get('/help', 'HelpController@showIndex');
-Route::any('/help/1-A', 'HelpController@showHelp1A');
-Route::get('/help/1-B', 'HelpController@showHelp1B');
-
+Route::get('/help', function(){
+	return View::make('Help');
+});
+Route::get('/help/{id}', function($id){
+	return View::make('help/'.$id);
+});
+Route::get('/postSale', function(){
+	return View::make('PostSale');
+});
+Route::get('/postSale/{id}', function($id){
+	return View::make('postsale/'.$id);
+});
+	
 #------------------ Auth Route ------------------------
 Route::any('/auth/signup/check', 'AuthController@check');
 Route::post('/auth/create', 'AuthController@create');
