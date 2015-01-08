@@ -35,4 +35,13 @@ class HomeController extends BaseController {
 	{
 		return View::make('SignIn');
 	}
+	
+	public function showOrder()
+	{
+		return View::make('order');
+	}
+	public function showRepay()
+	{
+		return View::make('order');
+	}
 }

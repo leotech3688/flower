@@ -2,8 +2,8 @@
 	<div class="layout clearfix">
 		<div class="pull-left" id="loginbar">欢迎来到济南鲜花礼品网，请<a href="/signIn">登录</a>或<a href="/signUp">注册</a></div>
 		<ul class="pull-right">
-			<li><a href="/product/myorder">我的订单</a></li>
-			<li><a href="/product/repay">在线补款</a></li>
+			<li><a href="/order">我的订单</a></li>
+			<li><a href="/repay">在线补款</a></li>
 			<li>
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#">客户服务<span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
