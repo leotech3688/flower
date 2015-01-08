@@ -100,7 +100,8 @@ body{font-family: "微软雅黑","microsoft yahei","宋体",Tahoma,Verdana; font
 		$(function(){
 			$('#LoginForm').validator({
 		        valid: function(form){
-		            var me = this; me.holdSubmit();
+		            var me = this; 
+		            me.holdSubmit();
 		            $.ajax({ url: '/auth/signIn', type: 'post', data: $(form).serialize(),
 		                dataType: 'json',
 		                success: function(redata){

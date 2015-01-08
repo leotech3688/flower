@@ -15,7 +15,9 @@ Route::get('/', 'HomeController@showIndex');
 Route::get('/signUp', 'HomeController@showSignUp');
 Route::get('/product/xianHua', 'HomeController@showXianHua');
 Route::get('/signIn', 'HomeController@showSignIn');
-Route::get('/initDb', 'HomeController@showInitDb');
+Route::get('/help', 'HelpController@showIndex');
+Route::any('/help/1-A', 'HelpController@showHelp1A');
+Route::get('/help/1-B', 'HelpController@showHelp1B');
 
 #------------------ Auth Route ------------------------
 Route::any('/auth/signup/check', 'AuthController@check');

@@ -35,8 +35,4 @@ class HomeController extends BaseController {
 	{
 		return View::make('SignIn');
 	}
-	public function showInitDb()
-	{
-		return View::make('db/initDb', ['flag'=>0]);
-	}
 }

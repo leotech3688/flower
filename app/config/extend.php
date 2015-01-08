@@ -34,5 +34,6 @@ return array(
 				'zh_CN'					=> 'assets/js/zh_CN.js',
 				'html5shiv'				=> 'assets/js/html5shiv.min.js',
 				'respond'				=> 'assets/js/respond.min.js',
+				'public'				=> 'assets/js/public.js'
 		),
 );

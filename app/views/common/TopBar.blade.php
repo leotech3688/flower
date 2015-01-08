@@ -7,12 +7,12 @@
 			<li>
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#">客户服务<span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
-					<li><a href="/service/helpcenter" target="_blank">帮助中心</a></li>
-					<li><a href="/service/postsale" target="_blank" rel="nofollow">售后服务</a></li>
-					<li><a href="/service/online" target="_blank" rel="nofollow">在线客服</a></li>
+					<li><a href="/help" target="_blank">帮助中心</a></li>
+					<li><a href="/postSale" target="_blank" rel="nofollow">售后服务</a></li>
+					<li><a href="/online" target="_blank" rel="nofollow">在线客服</a></li>
 				</ul>
 			</li>
-			<li><a href="javascript:addToFavorite()" rel="nofollow">收藏本站</a></li>
+			<li><a href="javascript:void(0);" onclick="AddFavorite('济南鲜花网',location.href)">收藏本站</a></li>
 		</ul>
 	</div>
 </div>
