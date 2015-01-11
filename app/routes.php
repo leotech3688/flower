@@ -16,6 +16,9 @@ Route::group(['before' => 'auth'], function()
 	Route::get('/order', 'HomeController@showOrder');
 	Route::get('/repay', 'HomeController@showRepay');
 });
+#------------------ Auth Route ------------------------
+Route::any('/auth/signup/check', 'AuthController@check');
+Route::post('/auth/create', 'AuthController@create');
 
 #------------------ Page Route ------------------------
 Route::get('/', 'HomeController@showIndex');
@@ -29,7 +32,6 @@ Route::get('/help', function(){
 Route::get('/help/{id}', function($id){
 	return View::make('help/'.$id);
 });
-
 #-------------------Post Sale------------------------	
 Route::get('/postSale', function(){
 	return View::make('PostSale');
@@ -38,7 +40,4 @@ Route::get('/postSale/{id}', function($id){
 	return View::make('postsale/'.$id);
 });
 
-#------------------ Auth Route ------------------------
-Route::any('/auth/signup/check', 'AuthController@check');
-Route::post('/auth/create', 'AuthController@create');
 ?>

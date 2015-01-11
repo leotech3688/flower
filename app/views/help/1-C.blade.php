@@ -10,5 +10,5 @@
 	<p><br></p>
 	<p style="padding:0px;color:#666666;font-family:微软雅黑;font-size:13px;line-height:30px;background-color:#ffffff;text-indent:2em;margin-top:0px;margin-bottom:0px;"><span style="line-height:1.5;font-size:20px;font-family:'microsoft yahei';color:#666666;"><strong>二、注册会员步骤：</strong></span></p>
 	<p><br></p>
-	<p style="padding:0px;color:#666666;font-family:微软雅黑;font-size:13px;line-height:30px;background-color:#ffffff;text-indent:2em;margin-top:0px;margin-bottom:0px;"> &nbsp;<span style="font-size:14px;font-family:'microsoft yahei';">a.点击：<a href="http://id.vnasi.com/reg?ReturnUrl=http://www.vnasi.com/" style="color:#ff0000;text-decoration:none;" target="_blank">注册</a> &nbsp;按步骤提示，即可轻松注册会员。</span></p>
+	<p style="padding:0px;color:#666666;font-family:微软雅黑;font-size:13px;line-height:30px;background-color:#ffffff;text-indent:2em;margin-top:0px;margin-bottom:0px;"> &nbsp;<span style="font-size:14px;font-family:'microsoft yahei';">a.点击：<a href="/signUp" style="color:#ff0000;text-decoration:none;" target="_blank">注册</a> &nbsp;按步骤提示，即可轻松注册会员。</span></p>
 </div>
