@@ -59,7 +59,7 @@ body{font-family: "微软雅黑","microsoft yahei","宋体",Tahoma,Verdana; font
 			<div class="login-from pull-right">
 				<div class="entry">
 					<form id="LoginForm" name="LoginForm" action="" method="post" data-validator-option="{theme:'yellow_right'}" >
-						<input type="hidden" name="ReturnUrl" value="http://www.vnasi.com/" />
+						<input type="hidden" name="ReturnUrl" value="http://localhost/" />
 						<h2 class="title">会员登录</h2>
 						<div class="alert alert-success" style="display: none;" role="alert"></div>
 						<div class="alert alert-info" style="display: none;" role="alert"></div>
@@ -69,7 +69,7 @@ body{font-family: "微软雅黑","microsoft yahei","宋体",Tahoma,Verdana; font
 								<div class="input-group-addon">
 									<i class="glyphicon glyphicon-user"></i>
 								</div>
-								<input class="form-control" type="text" name="account" data-rule="用户名:required;account;" placeholder="邮箱/用户名/已验证手机">
+								<input class="form-control" type="text" name="username" data-rule="用户名:required;account;" placeholder="邮箱/用户名/已验证手机">
 							</div>
 						</div>
 						<div class="form-group">
@@ -79,7 +79,7 @@ body{font-family: "微软雅黑","microsoft yahei","宋体",Tahoma,Verdana; font
 							</div>
 						</div>
 						<div>
-							<label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox1" value="option1"> 自动登录</label>
+							<label class="checkbox-inline"><input type="checkbox" id="inlineCheckbox1" name="isAutoLogin" value="on"> 自动登录</label>
 							<a class="pull-right" href="/Findpwd/index.html">忘记登录密码？</a>
 						</div>
 						<button type="submit" class="btn btn-danger">确认登录</button>
@@ -108,9 +108,9 @@ body{font-family: "微软雅黑","microsoft yahei","宋体",Tahoma,Verdana; font
 		                    me.holdSubmit(false);
 		                    if(redata.status == 1){
 		                      $("div.alert-danger").hide();
-		                      $("div.alert-success").html(redata.info).show().delay(2000).fadeOut(500);
+		                      $("div.alert-success").html(redata.info).show().delay(800).fadeOut(500);
 		                      var jumpUrl = redata.url ? redata.url : undefined;
-		                      if(jumpUrl != undefined) setTimeout(function(){ window.location.href=jumpUrl; },2000);
+		                      if(jumpUrl != undefined) setTimeout(function(){ window.location.href=jumpUrl; },1000);
 		                    }else{
 		                      $("div.alert-success").hide();
 		                      $("div.alert-danger").html(redata.info).show();

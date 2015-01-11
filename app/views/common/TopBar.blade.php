@@ -1,6 +1,20 @@
 <div class="page_top">
 	<div class="layout clearfix">
-		<div class="pull-left" id="loginbar">欢迎来到济南鲜花礼品网，请<a href="/signIn">登录</a>或<a href="/signUp">注册</a></div>
+		<ul class="pull-left" id="loginbar">
+		<?php 
+		if (Auth::check())
+		{?>
+		<li>济南鲜花礼品网，欢迎您</li><li><a class="dropdown-toggle" data-toggle="dropdown" href="#">[<?php echo Auth::user()->username; ?>]<span class="caret"></span></a>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/help">个人中心</a></li>
+			<li><a href="/auth/logout">注销</a>
+		</ul></li>
+		<?php
+		}
+		else
+			echo '<li>欢迎来到济南鲜花礼品网，请<a href="/signIn">登录</a>或<a href="/signUp">注册</a></li>';
+		?>
+		</ul>
 		<ul class="pull-right">
 			<li><a href="/order">我的订单</a></li>
 			<li><a href="/repay">在线补款</a></li>

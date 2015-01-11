@@ -25,7 +25,7 @@ body{font-family: "微软雅黑","microsoft yahei","宋体",Tahoma,Verdana; font
 	<div class="panel-body">
 		<p style="color:green">你已经登录，正在转入用户中心！</p>
 	</div>
-	<div class="panel-footer"><b id="wait">3</b>秒后自动跳转，<a id="href" href="/portal">如果您的浏览器没有自动跳转，请点击这里 </a></div>
+	<div class="panel-footer"><b id="wait">1</b>秒后自动跳转，<a id="href" href="/">如果您的浏览器没有自动跳转，请点击这里 </a></div>
 </div>
 @section('AfterScript')
 	{{ script('jquery-1.10.2') }}
@@ -40,7 +40,7 @@ body{font-family: "微软雅黑","microsoft yahei","宋体",Tahoma,Verdana; font
 				location.href = href;
 				clearInterval(interval);
 			};
-		}, 3000);
+		}, 1000);
 	})();
 </script>
 @parent @stop

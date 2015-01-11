@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -15,11 +16,12 @@ Route::group(['before' => 'auth'], function()
 {
 	Route::get('/order', 'HomeController@showOrder');
 	Route::get('/repay', 'HomeController@showRepay');
+	Route::get('/auth/logout', 'AuthController@logout');
 });
 #------------------ Auth Route ------------------------
 Route::any('/auth/signup/check', 'AuthController@check');
 Route::post('/auth/create', 'AuthController@create');
-
+Route::post('/auth/signIn', 'AuthController@login');
 #------------------ Page Route ------------------------
 Route::get('/', 'HomeController@showIndex');
 Route::get('/signUp', 'HomeController@showSignUp');

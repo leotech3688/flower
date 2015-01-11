@@ -92,7 +92,7 @@
 			<form class="form-horizontal" name="regUserForm" id="regUserForm" action="/auth/create" method="post" >
 				<div class="form-group">
 					<label class="col-sm-2 control-label"><b class="red">#</b>账户名称：</label>
-					<div class="col-sm-8"><input class="form-control" type="text" name="regName" data-rule="用户名:required;account;remote[/auth/signup/check]" placeholder="邮箱/用户名/手机号">
+					<div class="col-sm-8"><input class="form-control" type="text" name="username" data-rule="用户名:required;account;remote[/auth/signup/check]" placeholder="邮箱/用户名/手机号">
 					</div>
 				</div>
 				<div class="form-group">
@@ -108,7 +108,7 @@
 				<div class="form-group" style="margin-bottom:15px;">	
 					<label class="col-sm-2 control-label"></label>
 					<div class="col-sm-8 checkbox">
-						<label><input type="checkbox" checked="checked" id="readme"> 我已阅读并同意<a href="#" class="blue">《维纳斯鲜花礼品网用户注册协议》</a></label>
+						<label><input type="checkbox" checked="checked" id="readme" disabled="disabled"> 我已阅读并同意<a href="#" class="blue">《维纳斯鲜花礼品网用户注册协议》</a></label>
 					</div>
 				</div>
 				<div class="form-group">
