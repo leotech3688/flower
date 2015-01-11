@@ -19,9 +19,9 @@ class CreateUsersTable extends Migration {
 			
 			$table->string('username');
 			$table->string('password');
-			$table->string('phone');
-			$table->string('email');
-			$table->string('remember_token');
+			$table->string('phone')-->nullable();
+			$table->string('email')-->nullable();
+			$table->string('remember_token')-->nullable();
 			$table->timestamps();
 			$table->softDeletes();
 		});
